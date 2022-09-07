@@ -1,0 +1,9 @@
+Some of the package are not suitable with python version, so we need to create another environment with python version, which is suitable for that package:
+
+Foe Geopandas, python version <=3.8;
+For Windows open anaconda prompt (Search in windows search bar)
+For linux open Linux Terminal (ctrl + alt + T)
+
+        conda create env -n geo_env python=3.8  ##here is geo_env is new environment and the version of python is 3.8
+        conda activate geo_env                  ##here you need to activate your environment, and then install other package
+        conda install jupyter Notebook          ##here you need to install the jupyter notebook for 

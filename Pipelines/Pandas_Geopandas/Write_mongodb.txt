@@ -1,0 +1,7 @@
+pip install pandas
+pip install numpy
+pip install pymongo
+conda install geopandas==0.0.10
+pip install seaborn or conda install seaborn
+conda install shapely
+pip install shutil

@@ -1,0 +1,10 @@
+Documentation for Installing on windows: https://docs.anaconda.com/anaconda/install/windows/
+Download anaconda :  https://www.anaconda.com/products/distribution 
+Click on Download
+Double click to install it
+Click Next
+I agree
+Select an install for "Just Me"
+Select destination folder
+Select as everything default, and proceed for Installation
+After Installation you can type "Jupyter Notebook" in search bar and hit enter

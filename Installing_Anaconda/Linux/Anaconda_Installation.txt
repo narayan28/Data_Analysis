@@ -1,0 +1,48 @@
+Open linux terminal ctrl+alt+T
+Install GUI Application in your desktop:
+        sudo apt install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+
+Download the anaconda from browser (https://www.anaconda.com/products/distribution#linux) or use linux command wget:
+        wget -P /tmp https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
+
+Verify the Data Integrity of the script: it's optional
+        sha256sum /tmp/Anaconda3-2020.02-Linux-x86_64.sh
+    Output looks like:
+        2b9f088b2022edb474915d9f69a803d6449d5fdb4c303041f60ac4aefcc208bb  /tmp/Anaconda3-2020.02-Linux-x86_64.sh
+Got to the folder where you've dowloaded your Anaconda:
+        cd /Downloads
+Start the Installation Process:
+        bash /tmp/Anaconda3-2020.02-Linux-x86_64.sh
+    Output: 
+        Welcome to Anaconda3 2020.02
+
+        In order to continue the installation process, please review the license
+        agreement.
+        Please, press ENTER to continue
+        >>> Enter Enter.....
+
+    Output:
+        Do you approve the license terms? [yes|no] ----> yes
+    Output:
+        Anaconda3 will now be installed into this location:
+        /home/linuxize/anaconda3
+
+            - Press ENTER to confirm the location
+            - Press CTRL-C to abort the installation
+            - Or specify a different location below
+Installation will take some time and once completed, the script will ask you whether you want to run 
+    "conda init" Type yes
+
+    Output:
+    Installation finished.
+    Do you wish the installer to initialize Anaconda3
+    by running conda init? [yes|no]
+    type yes
+
+To activate anaconda installation type in command: 
+        source ~/.bashrc
+
+That's it You have successfully installed anaconda now type:
+        anaconda-navigator
+
+Anaconda navigator will open for that you've to wait 1-2 min.
